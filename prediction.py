@@ -9,6 +9,7 @@ from efficientnet.keras import EfficientNetB0, EfficientNetB3, EfficientNetB4
 from keras.applications import Xception
 from keras.layers import GlobalAveragePooling2D, Dropout, Dense, Conv2D, MaxPooling2D, Activation, Flatten
 
+
 class ImageProcessing:
     def __init__(self, img_height, img_width, no_channels, tol=7, sigmaX=8):
 
